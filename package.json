@@ -1,0 +1,17 @@
+{
+  "name": "@manuscripts/examples",
+  "description": "Example Manuscripts documents for use in validation",
+  "version": "0.0.1",
+  "license": "MIT",
+  "files": [
+    "data"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/mpapp-private/manuscripts-examples.git"
+  },
+  "homepage": "https://gitlab.com/mpapp-private/manuscripts-examples#README",
+  "publishConfig": {
+    "@manuscripts:registry": "https://atypon-npm-registry.herokuapp.com/"
+  }
+}
