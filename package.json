@@ -1,7 +1,7 @@
 {
   "name": "@manuscripts/examples",
   "description": "Example Manuscripts documents for use in validation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "files": [
     "data"
