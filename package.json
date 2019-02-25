@@ -6,11 +6,7 @@
   "files": [
     "data"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/mpapp-private/manuscripts-examples.git"
-  },
-  "homepage": "https://gitlab.com/mpapp-private/manuscripts-examples#README",
+  "repository": "gitlab:mpapp-public/manuscripts-examples",
   "publishConfig": {
     "@manuscripts:registry": "https://atypon-npm-registry.herokuapp.com/"
   }
