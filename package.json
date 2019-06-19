@@ -7,7 +7,7 @@
     "data"
   ],
   "repository": "gitlab:mpapp-public/manuscripts-examples",
-  "publishConfig": {
-    "@manuscripts:registry": "https://atypon-npm-registry.herokuapp.com/"
+  "devDependencies": {
+    "@manuscripts/publish": "^0.2.1"
   }
 }
