@@ -2,7 +2,7 @@
   "name": "@manuscripts/examples",
   "description": "Example Manuscripts documents for use in validation",
   "version": "0.0.6",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "files": [
     "data"
   ],
