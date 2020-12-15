@@ -62,9 +62,7 @@
         "MPParagraphElement:05A0ED43-8928-4C69-A17C-0A98795001CD"
       ],
       "objectType": "MPSection",
-      "path": [
-        "MPSection:77786D47-6060-4FBC-BC13-5FA754968D6A"
-      ],
+      "path": ["MPSection:77786D47-6060-4FBC-BC13-5FA754968D6A"],
       "placeholderTitle": "",
       "priority": 2,
       "sessionID": "fb8b3d44-9515-4747-c7d8-a30fb1bc188b",
@@ -77,13 +75,9 @@
       "category": "MPSectionCategory:toc",
       "collection": "sections",
       "createdAt": 1538472729,
-      "elementIDs": [
-        "MPTOCElement:657C54DB-78B5-4206-E322-170F68263A01"
-      ],
+      "elementIDs": ["MPTOCElement:657C54DB-78B5-4206-E322-170F68263A01"],
       "objectType": "MPSection",
-      "path": [
-        "MPSection:DFCBE345-A12D-451E-8320-723F25D2F472"
-      ],
+      "path": ["MPSection:DFCBE345-A12D-451E-8320-723F25D2F472"],
       "priority": 1,
       "sessionID": "fb8b3d44-9515-4747-c7d8-a30fb1bc188b",
       "title": "Table of Contents"
@@ -98,9 +92,7 @@
         "MPBibliographyElement:5987B3BA-D894-4700-90D6-114E20B9F3B1"
       ],
       "objectType": "MPSection",
-      "path": [
-        "MPSection:E07B0D52-9642-4D58-E577-26F8804E3DEE"
-      ],
+      "path": ["MPSection:E07B0D52-9642-4D58-E577-26F8804E3DEE"],
       "priority": 4,
       "sessionID": "58d96cc7-c834-4810-8f39-55cbca7eef93",
       "title": "Bibliography"
@@ -132,9 +124,7 @@
         "MPFootnotesElement:4CD7CE08-0880-46BD-FF83-52E32AEFAC3E"
       ],
       "objectType": "MPSection",
-      "path": [
-        "MPSection:F8EE617B-484B-4CF2-F1CA-014F5307D5CF"
-      ],
+      "path": ["MPSection:F8EE617B-484B-4CF2-F1CA-014F5307D5CF"],
       "priority": 3,
       "sessionID": "F027CEDE-1DAF-4172-BAE1-9AC95580BD8A",
       "title": "Section Two",
@@ -198,10 +188,7 @@
       "locked": true,
       "name": "dotted",
       "objectType": "MPBorderStyle",
-      "pattern": [
-        1,
-        1
-      ],
+      "pattern": [1, 1],
       "priority": 30,
       "prototype": "MPBorderStyle:00FD8810-B85D-4FC5-8C23-8022A36E07BD",
       "sessionID": "9932A9D7-59D9-41A7-965D-4170F8BD3F40",
@@ -230,10 +217,7 @@
       "locked": true,
       "name": "dashed",
       "objectType": "MPBorderStyle",
-      "pattern": [
-        2,
-        2
-      ],
+      "pattern": [2, 2],
       "priority": 20,
       "prototype": "MPBorderStyle:E28AA90C-4379-434F-AF58-E2D8C8ED1EB4",
       "sessionID": "9932A9D7-59D9-41A7-965D-4170F8BD3F40",
@@ -1856,9 +1840,7 @@
       "_rev": "5-b64df25740f122c84fad90e24ccf71fd",
       "caption": "A figure with a caption",
       "collection": "elements",
-      "containedObjectIDs": [
-        "MPFigure:D673DF08-D75E-4061-8EC1-9611EAB302F0"
-      ],
+      "containedObjectIDs": ["MPFigure:D673DF08-D75E-4061-8EC1-9611EAB302F0"],
       "createdAt": 1538472386,
       "elementType": "figure",
       "figureStyle": "MPFigureStyle:12916784-C8A2-414E-919D-490172E82B25",
@@ -1871,9 +1853,7 @@
       "_rev": "5-f2ffd5bab0f0db9b1ec890cde3b820d0",
       "caption": "A figure with hidden caption",
       "collection": "elements",
-      "containedObjectIDs": [
-        "MPFigure:AD65D628-A904-4DC4-A026-F8F4C08F6557"
-      ],
+      "containedObjectIDs": ["MPFigure:AD65D628-A904-4DC4-A026-F8F4C08F6557"],
       "createdAt": 1538472925,
       "elementType": "figure",
       "figureStyle": "MPFigureStyle:12916784-C8A2-414E-919D-490172E82B25",
@@ -1887,7 +1867,7 @@
       "_rev": "1-f01f7995cd38a0b307d729eadaf44e51",
       "collateByKind": "footnote",
       "collection": "elements",
-      "contents": "<div xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPFootnotesElement:4CD7CE08-0880-46BD-FF83-52E32AEFAC3E\" class=\"footnotes\"></div>",
+      "contents": "<div></div>",
       "createdAt": 1538473899,
       "elementType": "div",
       "objectType": "MPFootnotesElement",
@@ -1995,7 +1975,7 @@
       "_id": "MPParagraphElement:3708E8C7-441C-4502-8BFC-D3A2059CEF8B",
       "_rev": "4-2a70e73ad6d7aa54efda263d91182741",
       "collection": "elements",
-      "contents": "<p xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPParagraphElement:3708E8C7-441C-4502-8BFC-D3A2059CEF8B\" class=\"MPElement MPParagraphStyle_7EAB5784-717B-4672-BD59-8CA324FB0637\" data-object-type=\"MPParagraphElement\">A footnote:<span class=\"footnote\" id=\"MPFootnote:B1589279-0F3B-472B-BF11-3F59D6B65791\">1</span></p>",
+      "contents": "<p xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPParagraphElement:3708E8C7-441C-4502-8BFC-D3A2059CEF8B\" class=\"MPElement MPParagraphStyle_7EAB5784-717B-4672-BD59-8CA324FB0637\" data-object-type=\"MPParagraphElement\">A footnote:<span class=\"footnote\" data-reference-id=\"MPFootnote:B1589279-0F3B-472B-BF11-3F59D6B65791\">1</span></p>",
       "createdAt": 1538472713,
       "elementType": "p",
       "objectType": "MPParagraphElement",
@@ -2271,8 +2251,8 @@
       "_id": "MPFootnote:B1589279-0F3B-472B-BF11-3F59D6B65791",
       "_rev": "3-b142b108cb392c578e9cccbd6cf1c7b6",
       "collection": "footnotes",
-      "containingObject": "MPParagraphElement:3708E8C7-441C-4502-8BFC-D3A2059CEF8B",
-      "contents": "<div xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPFootnote:B1589279-0F3B-472B-BF11-3F59D6B65791\" class=\"footnote-contents\" ><div class=\"footnote-text\"><p placeholder-text=\"Footnote\">This is a footnote.</p></div></div>",
+      "containingObject": "MPFootnotesElement:4CD7CE08-0880-46BD-FF83-52E32AEFAC3E",
+      "contents": "<div xmlns=\"http://www.w3.org/1999/xhtml\" class=\"footnote-text\" id=\"MPFootnote:B1589279-0F3B-472B-BF11-3F59D6B65791\" data-kind=\"footnote\"><p>This is a footnote.</p></div>",
       "createdAt": 1538473899,
       "kind": "footnote",
       "objectType": "MPFootnote",
@@ -2307,9 +2287,7 @@
     {
       "_id": "MPContributor:585DB23A-8778-4AFF-986F-CFF7B733CDE6",
       "_rev": "131-f8add0194691b6beba3ba881ea1b2ea6",
-      "affiliations": [
-        "MPAffiliation:DED56C09-42E2-4AB4-BA15-9260389E2B08"
-      ],
+      "affiliations": ["MPAffiliation:DED56C09-42E2-4AB4-BA15-9260389E2B08"],
       "bibliographicName": {
         "given": "Example",
         "_id": "MPBibliographicName:24C5AC82-0130-4C94-A6D7-E8A2699EAAC8",
@@ -2320,9 +2298,7 @@
       "createdAt": 1538472774.30736,
       "email": "user@example.com",
       "fullName": "Example Author",
-      "grants": [
-        "MPGrant:EFF99DA8-065D-4DC8-B6DA-521F36371547"
-      ],
+      "grants": ["MPGrant:EFF99DA8-065D-4DC8-B6DA-521F36371547"],
       "isJointContributor": true,
       "lastName": "Author",
       "objectType": "MPContributor",
