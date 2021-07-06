@@ -1,0 +1,1476 @@
+{
+  "version": "2.0",
+  "data": [
+    {
+      "name": "default",
+      "title": "Default",
+      "objectType": "MPAuxiliaryObjectReferenceStyle",
+      "bundled": true,
+      "priority": 10,
+      "embeddedReferenceStringComponents": [
+        {
+          "_id": "MPStyleableStringComponent:B8CF9955-0956-4114-AAC7-F9C6CC99688F",
+          "objectType": "MPStyleableStringComponent",
+          "bold": true,
+          "italic": false,
+          "placeholderString": "${kind} ${elementIndex}"
+        }
+      ],
+      "prototype": "MPAuxiliaryObjectReferenceStyle:default",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPAuxiliaryObjectReferenceStyle:9F15C511-C683-45B1-8EBB-DFBE092F343F"
+    },
+    {
+      "name": "double",
+      "title": "Double Lines",
+      "objectType": "MPBorderStyle",
+      "bundled": true,
+      "doubleLines": true,
+      "priority": 40,
+      "prototype": "MPBorderStyle:16583262-A260-4E35-A508-3F960F70074F",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPBorderStyle:18D6FF84-8973-4FF7-B7EA-6177D9D93695"
+    },
+    {
+      "name": "dashed",
+      "title": "Dashed",
+      "objectType": "MPBorderStyle",
+      "bundled": true,
+      "pattern": [
+        2,
+        2
+      ],
+      "priority": 20,
+      "prototype": "MPBorderStyle:E28AA90C-4379-434F-AF58-E2D8C8ED1EB4",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPBorderStyle:2E5C7356-7A73-475A-BDC0-28C1AF4D0E0E"
+    },
+    {
+      "name": "solid",
+      "title": "Solid",
+      "objectType": "MPBorderStyle",
+      "bundled": true,
+      "priority": 10,
+      "prototype": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPBorderStyle:73D070CE-5EE9-44A8-8EBE-BC83A60EB5CE"
+    },
+    {
+      "name": "dotted",
+      "title": "Dotted",
+      "objectType": "MPBorderStyle",
+      "bundled": true,
+      "pattern": [
+        1,
+        1
+      ],
+      "priority": 30,
+      "prototype": "MPBorderStyle:00FD8810-B85D-4FC5-8C23-8022A36E07BD",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPBorderStyle:EDE37E8D-DD9B-4583-9033-D89904517EB8"
+    },
+    {
+      "bundled": true,
+      "csl": {
+        "ISSNs": [
+          "00280836"
+        ],
+        "_id": "MPCitationStyle:www-zotero-org-styles-nature",
+        "author-email": "mberkowi@gmu.edu",
+        "author-name": "Michael Berkowitz",
+        "cslIdentifier": "http://www.zotero.org/styles/nature",
+        "defaultLocale": "en-GB",
+        "documentation-URL": "http://www.nature.com/nature/authors/gta/index.html#a5.4",
+        "eISSNs": [
+          "14764687"
+        ],
+        "fields": [
+          "MPResearchField:science",
+          "MPResearchField:generic-base"
+        ],
+        "license": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "self-URL": "http://www.zotero.org/styles/nature",
+        "title": "Nature",
+        "updatedAt": 1410325903,
+        "version": "1.0"
+      },
+      "objectType": "MPBundle",
+      "prototype": "MPBundle:www-zotero-org-styles-nature",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "_id": "MPBundle:E08D0378-CD85-48A8-B4D2-9767DFECA124"
+    },
+    {
+      "name": "default",
+      "title": "Default",
+      "objectType": "MPCaptionStyle",
+      "bundled": true,
+      "priority": 10,
+      "embeddedCaptionComponents": [
+        {
+          "_id": "MPStyleableStringComponent:E43EAFE4-7C81-468E-BF88-8CEF41435062",
+          "objectType": "MPStyleableStringComponent",
+          "bold": true,
+          "italic": false,
+          "placeholderString": "${kind} ${elementIndex}:"
+        },
+        {
+          "_id": "MPStyleableStringComponent:A6F4C1B4-597F-4206-A21A-4CA60F6C7A2E",
+          "objectType": "MPStyleableStringComponent",
+          "bold": false,
+          "italic": false,
+          "placeholderString": "${caption}",
+          "editable": true
+        }
+      ],
+      "embeddedFigureTitleComponents": [
+        {
+          "_id": "MPStyleableStringComponent:E5CB691A-EE39-41BD-8D78-22E02BD7782A",
+          "objectType": "MPStyleableStringComponent",
+          "bold": true,
+          "italic": false,
+          "placeholderString": "${figureIndex}. "
+        },
+        {
+          "_id": "MPStyleableStringComponent:9E4DDC68-4667-49C8-9F3E-600E0258A53A",
+          "objectType": "MPStyleableStringComponent",
+          "bold": false,
+          "italic": false,
+          "placeholderString": "${title}",
+          "editable": true
+        }
+      ],
+      "figureTitleNumberingScheme": "decimal",
+      "prototype": "MPCaptionStyle:default",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPCaptionStyle:F6B503C2-3525-4F62-A846-EE63627BBE22"
+    },
+    {
+      "name": "orange",
+      "title": "Orange",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#FE8F1F",
+      "priority": 130,
+      "prototype": "MPColor:orange",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:14A5DD73-0564-48E5-86F4-7B4268F5C946"
+    },
+    {
+      "name": "black",
+      "title": "Black",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#000000",
+      "priority": 10,
+      "prototype": "MPColor:black",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:14CC492F-4849-44B7-83D2-8BB808BB5546"
+    },
+    {
+      "name": "darkpink",
+      "title": "Dark Pink",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#F474AE",
+      "priority": 170,
+      "prototype": "MPColor:darkpink",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:1520C176-CF38-4595-8B19-AB5735AB0F16"
+    },
+    {
+      "name": "white",
+      "title": "White",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#ffffff",
+      "priority": 100,
+      "prototype": "MPColor:white",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:2FE7468E-189E-4B49-A944-4F1DE09475B2"
+    },
+    {
+      "name": "lightgray",
+      "title": "Light Gray",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#E2E2E2",
+      "priority": 30,
+      "prototype": "MPColor:lightgray",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:442296F6-747D-4619-9367-5615BD0CDA28"
+    },
+    {
+      "name": "green",
+      "title": "Green",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#8DD439",
+      "priority": 180,
+      "prototype": "MPColor:green",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:6F89A3B1-9778-4F69-9DBC-29188AB41161"
+    },
+    {
+      "name": "verylightgray",
+      "title": "Very Light Gray",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#f4f4f4",
+      "priority": 40,
+      "prototype": "MPColor:verylightgray",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:772A7D0A-F098-4CF2-A8D8-14472A0A679A"
+    },
+    {
+      "name": "teagreen",
+      "title": "Tea Green",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#D5FFC4",
+      "priority": 150,
+      "prototype": "MPColor:teagreen",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:79B812F9-450B-4906-B101-9D0AF6A206EA"
+    },
+    {
+      "name": "verylightblue",
+      "title": "Very Light Blue",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#f0f0ff",
+      "priority": 50,
+      "prototype": "MPColor:verylightblue",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:8FE952BB-2BF5-4994-A0E4-8C715AD72D6E"
+    },
+    {
+      "name": "lightblue",
+      "title": "Light Blue",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#ddf3fa",
+      "priority": 110,
+      "prototype": "MPColor:lightblue",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:939CEAF9-2FB6-4EC9-BE4A-05451064AAEB"
+    },
+    {
+      "name": "gray",
+      "title": "Gray",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#b0b0b0",
+      "priority": 20,
+      "prototype": "MPColor:gray",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:A553D4DD-0E3C-4A84-BAF5-D540FF11E161"
+    },
+    {
+      "name": "pink",
+      "title": "Pink",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#F5C1B7",
+      "priority": 160,
+      "prototype": "MPColor:pink",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:AEA6A035-EA31-4B1E-8022-E280077750D3"
+    },
+    {
+      "name": "purple",
+      "title": "Purple",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#B3A1FC",
+      "priority": 140,
+      "prototype": "MPColor:purple",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:B7690646-83DB-4AC4-9D46-74D7C7F6E6BF"
+    },
+    {
+      "name": "blue",
+      "title": "Blue",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#1A9BC7",
+      "priority": 120,
+      "prototype": "MPColor:blue",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:C21C2E03-3E91-4402-B851-E86F0AC3602B"
+    },
+    {
+      "name": "yellow",
+      "title": "Yellow",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#FFFCDB",
+      "priority": 190,
+      "prototype": "MPColor:yellow",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:E18606D2-E9F0-4CC7-920E-666795617593"
+    },
+    {
+      "name": "red",
+      "title": "Red",
+      "objectType": "MPColor",
+      "bundled": true,
+      "value": "#F35143",
+      "priority": 200,
+      "prototype": "MPColor:red",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColor:E979CBC4-1839-46ED-84C3-1296F6DC6647"
+    },
+    {
+      "objectType": "MPColorScheme",
+      "name": "Manuscripts tags colour scheme",
+      "bundled": true,
+      "colors": [
+        "MPColor:lightblue",
+        "MPColor:orange",
+        "MPColor:purple",
+        "MPColor:teagreen",
+        "MPColor:pink",
+        "MPColor:darkpink",
+        "MPColor:green",
+        "MPColor:blue",
+        "MPColor:lightgray",
+        "MPColor:yellow",
+        "MPColor:red"
+      ],
+      "prototype": "MPColorScheme:tags",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColorScheme:52A70305-7DED-49B4-8A86-1277A716F16E"
+    },
+    {
+      "objectType": "MPColorScheme",
+      "name": "Manuscripts default colour scheme",
+      "bundled": true,
+      "colors": [
+        "MPColor:black",
+        "MPColor:gray",
+        "MPColor:verylightgray",
+        "MPColor:verylightblue",
+        "MPColor:white",
+        "MPColor:red",
+        "MPColor:lightblue",
+        "MPColor:orange",
+        "MPColor:purple",
+        "MPColor:teagreen",
+        "MPColor:pink",
+        "MPColor:darkpink",
+        "MPColor:green",
+        "MPColor:blue",
+        "MPColor:lightgray",
+        "MPColor:yellow"
+      ],
+      "prototype": "MPColorScheme:default",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPColorScheme:669BE8D1-CD9B-4929-BFC4-E7BE23816C5B"
+    },
+    {
+      "objectType": "MPCommentAnnotation",
+      "target": "MPHighlight:FEFA89E4-E9EC-4CEE-9E3A-EC1905766C12",
+      "contents": "<div><p>This is my CommentAnnotation.</p></div>",
+      "contributions": [
+        {
+          "_id": "MPContribution:270BB042-3D0B-47CE-BADF-C106EDC89C92",
+          "objectType": "MPContribution",
+          "profileID": "MPUserProfile:46c1ede43e9927da24c6fe822c9ad490456262a1",
+          "timestamp": 1625604250
+        }
+      ],
+      "originalText": "Gastropub pickled selvage readymade church-key austin blue bottle mixtape forage bicycle rights. Raw denim bushwick poke gluten-free, readymade cardigan biodiesel scenester pitchfork paleo pug bespoke.",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPCommentAnnotation:58970EBD-2E01-443B-85C2-D6E88C67241B"
+    },
+    {
+      "objectType": "MPContributor",
+      "priority": 0,
+      "role": "author",
+      "affiliations": [],
+      "bibliographicName": {
+        "_id": "MPBibliographicName:A66354F7-3063-402F-A101-F3DF2B0D2A75",
+        "family": "A. Ydenberg",
+        "given": "Kees",
+        "objectType": "MPBibliographicName"
+      },
+      "userID": "User_6a0e66e1-85c0-4671-b739-83397d0730d9",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributor:75EA4A16-DD46-434F-8D1F-3D736DED9C73"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Formal_analysis",
+      "name": "Formal analysis",
+      "desc": "Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-formal-analysis",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:2C0F056E-2B6A-4024-80A3-98FCA58D5A5C"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Investigation",
+      "name": "Investigation",
+      "desc": "Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-investigation",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:3AE0D3E2-3F23-4D6C-8D10-E164CF78FB1A"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Methodology",
+      "name": "Methodology",
+      "desc": "Development or design of methodology; creation of models.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-methodology",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:4F2ED357-84E9-476E-833D-37512548E1B4"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Project_administration",
+      "name": "Project administration",
+      "desc": "Management and coordination responsibility for the research activity planning and execution.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-project-administration",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:5790B368-A078-49D7-8D49-AA604F7CE131"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Resources",
+      "name": "Resources",
+      "desc": "Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-resources",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:60166507-EB21-40A6-830F-D8215697F45D"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Data_curation",
+      "name": "Data curation",
+      "desc": "Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-data-curation",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:67F5DBFB-3FBE-40D3-A4B3-CAC97E135F8D"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_original_draft",
+      "name": "Writing – original draft",
+      "desc": "Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation).",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-writing-original-draft",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:800DBC78-02BE-422A-A7B5-EF89BBC00124"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing",
+      "name": "Writing – review & editing",
+      "desc": "Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-writing-review-editing",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:8C07FE8F-9980-46C1-A5D2-A8BA43C5CD01"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Validation",
+      "name": "Validation",
+      "desc": "Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-validation",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:BFF6C8A1-ED14-413E-BFA9-462CE7029DF2"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Conceptualization",
+      "name": "Conceptualization",
+      "desc": "Ideas; formulation or evolution of overarching research goals and aims.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-conceptualization",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:C5DD4144-2FBC-4EBA-BB85-681DDDB628D8"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Funding_acquisition",
+      "name": "Funding acquisition",
+      "desc": "Acquisition of the financial support for the project leading to this publication.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-funding-acquisition",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:C796C7BD-CC93-40C6-B4EA-8CFB88F38116"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Supervision",
+      "name": "Supervision",
+      "desc": "Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-supervision",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:C9126B01-A851-4819-9EE4-87270C8FED4B"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Software",
+      "name": "Software",
+      "desc": "Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-software",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:E18B2914-02B0-4C0A-BCB9-5B2198640A58"
+    },
+    {
+      "uri": "https://dictionary.casrai.org/Contributor_Roles/Visualization",
+      "name": "Visualization",
+      "desc": "Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.",
+      "objectType": "MPContributorRole",
+      "bundled": true,
+      "prototype": "MPContributorRole:credit-visualization",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPContributorRole:E736C3EE-5724-477A-B68C-1F82B3139829"
+    },
+    {
+      "name": "3_by_2",
+      "title": "Six Figures (3×2)",
+      "objectType": "MPFigureLayout",
+      "columns": 3,
+      "rows": 2,
+      "bundled": true,
+      "priority": 60,
+      "prototype": "MPFigureLayout:3_by_2",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:08138DD4-66AD-40AE-8293-A28F11595FDD"
+    },
+    {
+      "name": "three_figures_stacked",
+      "title": "Three Figures Stacked",
+      "objectType": "MPFigureLayout",
+      "columns": 1,
+      "rows": 3,
+      "bundled": true,
+      "priority": 35,
+      "prototype": "MPFigureLayout:three_figures_stacked",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:4B726C22-74F5-4CA7-BDFE-E2CD1FE64573"
+    },
+    {
+      "name": "three_figures",
+      "title": "Three Figures in a Row",
+      "objectType": "MPFigureLayout",
+      "bundled": true,
+      "columns": 3,
+      "rows": 1,
+      "priority": 30,
+      "prototype": "MPFigureLayout:three_figures",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:65DE9038-6082-49C1-9780-5E2139FC8DBD"
+    },
+    {
+      "name": "2_by_3",
+      "title": "Six Figures (2×3)",
+      "objectType": "MPFigureLayout",
+      "columns": 2,
+      "rows": 3,
+      "bundled": true,
+      "priority": 65,
+      "prototype": "MPFigureLayout:2_by_3",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:7AE5FAA8-F065-4A08-826E-90620AB80D44"
+    },
+    {
+      "name": "default",
+      "title": "Single Figure",
+      "objectType": "MPFigureLayout",
+      "bundled": true,
+      "columns": 1,
+      "rows": 1,
+      "priority": 10,
+      "prototype": "MPFigureLayout:default",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:9DA1076B-AE77-4647-9107-13D18EA996F7"
+    },
+    {
+      "name": "nine_figures",
+      "title": "Nine Figures (3×3)",
+      "objectType": "MPFigureLayout",
+      "columns": 3,
+      "rows": 3,
+      "bundled": true,
+      "priority": 90,
+      "prototype": "MPFigureLayout:nine_figures",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:9E2C8969-E662-43F3-8299-0C67799CAE4F"
+    },
+    {
+      "name": "four_figures",
+      "title": "Four Figures (2×2)",
+      "objectType": "MPFigureLayout",
+      "columns": 2,
+      "rows": 2,
+      "bundled": true,
+      "priority": 40,
+      "prototype": "MPFigureLayout:four_figures",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:B7102133-58BE-4E22-A88B-2CFBBBFDF0A2"
+    },
+    {
+      "name": "two_figures_stacked",
+      "title": "Two Figures Stacked",
+      "objectType": "MPFigureLayout",
+      "columns": 1,
+      "rows": 2,
+      "bundled": true,
+      "priority": 25,
+      "prototype": "MPFigureLayout:two_figures_stacked",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:E0580E63-3855-415E-9575-63A9AED1418B"
+    },
+    {
+      "name": "two_figures",
+      "title": "Two Figures Side by Side",
+      "objectType": "MPFigureLayout",
+      "bundled": true,
+      "columns": 2,
+      "rows": 1,
+      "priority": 20,
+      "prototype": "MPFigureLayout:two_figures",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureLayout:FF0E2C06-3660-4B8C-A562-E7972498C66E"
+    },
+    {
+      "preferredXHTMLElement": "figure",
+      "name": "default",
+      "title": "Default",
+      "objectType": "MPFigureStyle",
+      "bundled": true,
+      "captionPosition": "below",
+      "innerBorder": {
+        "color": "MPColor:black",
+        "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+        "width": 0,
+        "_id": "MPBorder:0FFF4CDC-9D5C-4B7D-A606-F0374354FB7F",
+        "objectType": "MPBorder"
+      },
+      "outerBorder": {
+        "width": 0,
+        "_id": "MPBorder:0FFF4CDC-9D5C-4B7D-A606-F0374354FB7F",
+        "objectType": "MPBorder"
+      },
+      "priority": 10,
+      "prototype": "MPFigureStyle:default",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPFigureStyle:7F11539C-8A57-4765-8C44-4BFBD2D43F80"
+    },
+    {
+      "objectType": "MPHighlight",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPHighlight:FEFA89E4-E9EC-4CEE-9E3A-EC1905766C12"
+    },
+    {
+      "objectType": "MPManuscript",
+      "title": "Manuscript",
+      "priority": 1,
+      "pageLayout": "MPPageLayout:46CFC411-673A-45BC-9CFE-6B1623648726",
+      "bundle": "MPBundle:E08D0378-CD85-48A8-B4D2-9767DFECA124",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "_id": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C"
+    },
+    {
+      "objectType": "MPPageLayout",
+      "bundled": true,
+      "beginChaptersOnRightHandPages": true,
+      "bottomMargin": 20,
+      "defaultParagraphStyle": "MPParagraphStyle:DE81278D-3C13-4266-97D3-76E0B67FAC2A",
+      "displayUnits": "mm",
+      "leftMargin": 20,
+      "mirrorPagesHorizontally": true,
+      "embeddedNumberingStyle": {
+        "_id": "MPNumberingStyle:CB6FF724-7F91-454A-9A3C-30293471E039",
+        "objectType": "MPNumberingStyle",
+        "startIndex": 1,
+        "prefix": "[",
+        "numberingScheme": "decimal",
+        "suffix": "]",
+        "priority": 99
+      },
+      "pageSize": "a4",
+      "rightMargin": 20,
+      "topMargin": 20,
+      "prototype": "MPPageLayout:defaultA4",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPPageLayout:46CFC411-673A-45BC-9CFE-6B1623648726"
+    },
+    {
+      "elementType": "p",
+      "contents": "<p xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPParagraphElement:2D1501A5-7946-43D5-93E2-CE8E627D979F\" class=\"MPElement MPParagraphStyle_DE81278D-3C13-4266-97D3-76E0B67FAC2A\" data-object-type=\"MPParagraphElement\">Umami ennui tattooed austin. +1 scenester twee salvia. Pok pok poutine yr kogi, woke helvetica craft beer schlitz banjo squid. Migas hell of ramps, polaroid chicharrones neutra lyft forage scenester narwhal.</p>",
+      "paragraphStyle": "MPParagraphStyle:DE81278D-3C13-4266-97D3-76E0B67FAC2A",
+      "placeholderInnerHTML": "",
+      "objectType": "MPParagraphElement",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphElement:2D1501A5-7946-43D5-93E2-CE8E627D979F"
+    },
+    {
+      "elementType": "p",
+      "contents": "<p xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPParagraphElement:3179FBD9-2964-48CF-9125-7720626F40D2\" class=\"MPElement MPParagraphStyle_DE81278D-3C13-4266-97D3-76E0B67FAC2A\" data-object-type=\"MPParagraphElement\">Ennui offal portland mustache pug messenger bag sustainable brooklyn put a bird on it vice succulents iceland vaporware. Pitchfork roof party keffiyeh synth, PBR&amp;B deep v bespoke trust fund occupy ramps. Poke forage vape crucifix yr waistcoat mustache unicorn DIY asymmetrical copper mug synth chambray microdosing photo booth. Tote bag hashtag letterpress tilde. Bitters vape succulents forage tilde, helvetica pok pok vegan yuccie.</p>",
+      "paragraphStyle": "MPParagraphStyle:DE81278D-3C13-4266-97D3-76E0B67FAC2A",
+      "placeholderInnerHTML": "",
+      "objectType": "MPParagraphElement",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphElement:3179FBD9-2964-48CF-9125-7720626F40D2"
+    },
+    {
+      "elementType": "p",
+      "contents": "<p xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPParagraphElement:3F584784-AC3B-4B32-9E34-CAE814350F7C\" class=\"MPElement MPParagraphStyle_DE81278D-3C13-4266-97D3-76E0B67FAC2A\" data-object-type=\"MPParagraphElement\">Affogato vape banh mi butcher, cornhole seitan farm-to-table shoreditch narwhal heirloom. Gastropub pickled selvage readymade church-key austin blue bottle mixtape forage bicycle rights. Raw denim bushwick poke gluten-free, readymade cardigan biodiesel scenester pitchfork paleo pug bespoke. Next level organic four dollar toast retro cardigan disrupt, typewriter yuccie pok pok butcher 8-bit bushwick actually. Snackwave coloring book kale chips franzen craft beer. XOXO stumptown kickstarter glossier chia hashtag prism brunch chartreuse pinterest kale chips.</p>",
+      "paragraphStyle": "MPParagraphStyle:DE81278D-3C13-4266-97D3-76E0B67FAC2A",
+      "placeholderInnerHTML": "",
+      "objectType": "MPParagraphElement",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "highlightMarkers": [
+        {
+          "_id": "MPHighlightMarker:D8972271-1EBA-4E88-9AAC-36E36E807C00",
+          "objectType": "MPHighlightMarker",
+          "highlightID": "MPHighlight:FEFA89E4-E9EC-4CEE-9E3A-EC1905766C12",
+          "field": "contents",
+          "start": true,
+          "offset": 301
+        },
+        {
+          "_id": "MPHighlightMarker:1D32D0D6-F64D-4EB9-9F5B-7CD2A899C21D",
+          "objectType": "MPHighlightMarker",
+          "highlightID": "MPHighlight:FEFA89E4-E9EC-4CEE-9E3A-EC1905766C12",
+          "field": "contents",
+          "start": false,
+          "offset": 502
+        }
+      ],
+      "_id": "MPParagraphElement:3F584784-AC3B-4B32-9E34-CAE814350F7C"
+    },
+    {
+      "elementType": "p",
+      "contents": "<p xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPParagraphElement:BE6924F9-F0DE-4E0B-88F2-0A8D906352B9\" class=\"MPElement MPParagraphStyle_DE81278D-3C13-4266-97D3-76E0B67FAC2A\" data-object-type=\"MPParagraphElement\">Copper mug XOXO pinterest cray sustainable. Banh mi swag palo santo, fanny pack bushwick drinking vinegar man bun leggings knausgaard authentic. 8-bit unicorn pickled vice roof party bushwick cold-pressed chia la croix, echo park street art kombucha narwhal pabst. Gluten-free semiotics cardigan flexitarian, drinking vinegar gastropub slow-carb chia post-ironic tumeric locavore DIY polaroid pour-over kombucha. Poutine fanny pack ennui sriracha affogato narwhal shaman. Messenger bag salvia chia hammock put a bird on it pabst austin ethical chartreuse biodiesel umami neutra raclette retro.</p>",
+      "paragraphStyle": "MPParagraphStyle:DE81278D-3C13-4266-97D3-76E0B67FAC2A",
+      "placeholderInnerHTML": "",
+      "objectType": "MPParagraphElement",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphElement:BE6924F9-F0DE-4E0B-88F2-0A8D906352B9"
+    },
+    {
+      "elementType": "p",
+      "contents": "<p xmlns=\"http://www.w3.org/1999/xhtml\" id=\"MPParagraphElement:DF4DBFDC-733C-4FD6-8BD7-8170030EF1E1\" class=\"MPElement MPParagraphStyle_DE81278D-3C13-4266-97D3-76E0B67FAC2A\" data-object-type=\"MPParagraphElement\">Migas distillery blog green juice. Gastropub jean shorts single-origin coffee tattooed copper mug hammock skateboard iPhone hoodie kickstarter hella paleo. Before they sold out next level tumblr, paleo kombucha scenester hoodie lomo truffaut DIY thundercats meh celiac try-hard. Salvia portland taxidermy coloring book, actually freegan vape 8-bit ethical wolf fixie cardigan. Man braid brooklyn affogato, forage vape blog salvia live-edge.</p>",
+      "paragraphStyle": "MPParagraphStyle:DE81278D-3C13-4266-97D3-76E0B67FAC2A",
+      "placeholderInnerHTML": "",
+      "objectType": "MPParagraphElement",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphElement:DF4DBFDC-733C-4FD6-8BD7-8170030EF1E1"
+    },
+    {
+      "kind": "heading",
+      "preferredXHTMLElement": "h3",
+      "name": "heading3",
+      "title": "Subsubsection Heading",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:055123F5-3704-49FE-B59B-D801598C67C4",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 12,
+        "bold": true,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 5,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 8,
+      "priority": 22,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:H3",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:1931CB29-C588-45D9-AABB-67D4910D59FD"
+    },
+    {
+      "kind": "title",
+      "preferredXHTMLElement": "h1",
+      "name": "manuscriptTitle",
+      "title": "Manuscript Title",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:BBA06E82-F724-419F-A81E-1886644AA4B9",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 20,
+        "bold": true,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 10,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 10,
+      "priority": 19,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:manuscriptTitle",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:19F35B36-FBA3-458F-8558-8F50F1CE230B"
+    },
+    {
+      "kind": "body",
+      "preferredXHTMLElement": "p",
+      "name": "bodyText",
+      "title": "Table of Contents",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:2E79D76D-CAC1-492F-8709-DAD9FD369B8B",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 12,
+        "bold": false,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "listHeadIndent": 30,
+      "listItemIndentPerLevel": 30,
+      "listTailIndent": 0,
+      "hierarchicalListNumbering": false,
+      "hideListNumberingSuffixForLastLevel": true,
+      "embeddedListItemBulletStyles": {
+        "1": {
+          "_id": "MPListItemBulletStyle:DD563297-776A-42C6-9408-21501DD0B0AC",
+          "objectType": "MPListItemBulletStyle",
+          "bulletStyle": "none"
+        },
+        "2": {
+          "_id": "MPListItemBulletStyle:EC293DED-80AD-414C-9988-9EF62A9A4EF4",
+          "objectType": "MPListItemBulletStyle",
+          "bulletStyle": "none"
+        }
+      },
+      "embeddedListItemNumberingStyles": {
+        "1": {
+          "_id": "MPNumberingStyle:43D2A1BA-0ED9-4B8E-8C29-265B17B9F1DD",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "none",
+          "suffix": "."
+        },
+        "2": {
+          "_id": "MPNumberingStyle:9D6F6970-0273-4C53-BC7A-8B2FAA784D4A",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "none",
+          "suffix": "."
+        },
+        "3": {
+          "_id": "MPNumberingStyle:AAB86A8A-5D9D-4C37-995F-F0226E22E10D",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "none",
+          "suffix": "."
+        }
+      },
+      "alignment": "left",
+      "bottomSpacing": 10,
+      "firstLineIndent": 0,
+      "lineSpacing": 2,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 10,
+      "priority": 20,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:toc",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:28A32F7C-8112-4573-A1A8-D0EEB5CD3584"
+    },
+    {
+      "kind": "heading",
+      "preferredXHTMLElement": "h5",
+      "name": "heading5",
+      "title": "Subsubsubsubsection Heading",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:6094A8B5-2751-489F-B4A5-699E54B57DC3",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 12,
+        "bold": true,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 5,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 8,
+      "priority": 24,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:H5",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:37295E9F-0E94-4E98-8FEB-1D2EBEE26841"
+    },
+    {
+      "kind": "heading",
+      "preferredXHTMLElement": "h2",
+      "name": "heading2",
+      "title": "Subsection Heading",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:0A37ACFF-1D8A-4068-ABD0-0594C99C8EE0",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 14,
+        "bold": true,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 5,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 8,
+      "priority": 21,
+      "partOfTOC": true,
+      "prototype": "MPParagraphStyle:H2",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:42684441-FE9A-45EB-827E-9F31C0B7544E"
+    },
+    {
+      "kind": "heading",
+      "preferredXHTMLElement": "h4",
+      "name": "heading4",
+      "title": "Subsubsubsection Heading",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:A3F0EF28-7A3F-4208-9205-5BD3FF8C1066",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 12,
+        "bold": true,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 5,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 8,
+      "priority": 23,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:H4",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:5267B5AC-4D7A-418E-A20D-F17D51F43812"
+    },
+    {
+      "kind": "listing",
+      "preferredXHTMLElement": "pre",
+      "name": "listing",
+      "title": "Listing",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:listing",
+      "textStyling": {
+        "_id": "MPTextStyling:38ED2127-F6B6-4465-B739-09A3701A832D",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Menlo",
+        "fontSize": 11,
+        "bold": false,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 10,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 10,
+      "priority": 110,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:listing",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:59EDEEE8-782D-4E4A-86FC-4E250F7F84E2"
+    },
+    {
+      "kind": "heading",
+      "preferredXHTMLElement": "h1",
+      "name": "heading1",
+      "title": "Section Heading",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:2E2D93EB-2474-4494-AD92-B5EAD46A38BE",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 16,
+        "bold": true,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 5,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 8,
+      "priority": 20,
+      "partOfTOC": true,
+      "prototype": "MPParagraphStyle:H1",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:93C4E916-E5B8-477F-BE39-00580D916689"
+    },
+    {
+      "kind": "title",
+      "preferredXHTMLElement": "p",
+      "name": "contributorList",
+      "title": "Author List",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:E430B8EE-411D-4218-82E3-C30269D1803A",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 12,
+        "bold": false,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 10,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 10,
+      "priority": 20,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:contributorList",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:BBB132DE-50D6-4263-A2CA-685598A196D0"
+    },
+    {
+      "kind": "footnote",
+      "preferredXHTMLElement": "p",
+      "name": "footnote",
+      "title": "Footnote",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:footnote",
+      "textStyling": {
+        "_id": "MPTextStyling:A6E169AC-4610-44C6-A979-7FD95AE787CC",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 10,
+        "bold": false,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "listHeadIndent": 30,
+      "listItemIndentPerLevel": 30,
+      "listTailIndent": 0,
+      "hierarchicalListNumbering": false,
+      "hideListNumberingSuffixForLastLevel": true,
+      "embeddedListItemBulletStyles": {
+        "1": {
+          "_id": "MPListItemBulletStyle:0E9110F4-8426-4B66-B97A-9053CFC9C77A",
+          "objectType": "MPListItemBulletStyle",
+          "bulletStyle": "disc"
+        },
+        "2": {
+          "_id": "MPListItemBulletStyle:1066DC6B-704F-4CA0-B807-72F461F5E0BA",
+          "objectType": "MPListItemBulletStyle",
+          "bulletStyle": "circle"
+        }
+      },
+      "embeddedListItemNumberingStyles": {
+        "1": {
+          "_id": "MPNumberingStyle:5A479546-C898-4C4B-9836-202EA34332A8",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "decimal",
+          "suffix": "."
+        },
+        "2": {
+          "_id": "MPNumberingStyle:BE16BD50-9F21-49A7-8F66-15011A3DBCEE",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "decimal",
+          "suffix": "."
+        },
+        "3": {
+          "_id": "MPNumberingStyle:5AC47239-EDA2-4314-8BE5-8A5399F379DF",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "decimal",
+          "suffix": "."
+        }
+      },
+      "alignment": "left",
+      "bottomSpacing": 10,
+      "firstLineIndent": 0,
+      "lineSpacing": 2,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 10,
+      "priority": 100,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:footnote",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:C8A3D8DF-CBED-4D6C-9233-81B6147C0F9D"
+    },
+    {
+      "kind": "body",
+      "preferredXHTMLElement": "p",
+      "name": "bodyText",
+      "title": "Body Text",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:A6E169AC-4610-44C6-A979-7FD95AE787CC",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 12,
+        "bold": false,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "listHeadIndent": 30,
+      "listItemIndentPerLevel": 30,
+      "listTailIndent": 0,
+      "hierarchicalListNumbering": false,
+      "hideListNumberingSuffixForLastLevel": true,
+      "embeddedListItemBulletStyles": {
+        "1": {
+          "_id": "MPListItemBulletStyle:0E9110F4-8426-4B66-B97A-9053CFC9C77A",
+          "objectType": "MPListItemBulletStyle",
+          "bulletStyle": "disc"
+        },
+        "2": {
+          "_id": "MPListItemBulletStyle:1066DC6B-704F-4CA0-B807-72F461F5E0BA",
+          "objectType": "MPListItemBulletStyle",
+          "bulletStyle": "circle"
+        }
+      },
+      "embeddedListItemNumberingStyles": {
+        "1": {
+          "_id": "MPNumberingStyle:5A479546-C898-4C4B-9836-202EA34332A8",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "decimal",
+          "suffix": "."
+        },
+        "2": {
+          "_id": "MPNumberingStyle:BE16BD50-9F21-49A7-8F66-15011A3DBCEE",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "decimal",
+          "suffix": "."
+        },
+        "3": {
+          "_id": "MPNumberingStyle:5AC47239-EDA2-4314-8BE5-8A5399F379DF",
+          "objectType": "MPNumberingStyle",
+          "startIndex": 1,
+          "prefix": "",
+          "numberingScheme": "decimal",
+          "suffix": "."
+        }
+      },
+      "alignment": "left",
+      "bottomSpacing": 10,
+      "firstLineIndent": 0,
+      "lineSpacing": 2,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 10,
+      "priority": 10,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:bodyText",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:DE81278D-3C13-4266-97D3-76E0B67FAC2A"
+    },
+    {
+      "kind": "heading",
+      "preferredXHTMLElement": "h6",
+      "name": "heading6",
+      "title": "Subsubsubsubsubsection Heading",
+      "objectType": "MPParagraphStyle",
+      "bundled": true,
+      "nextStyle": "MPParagraphStyle:bodyText",
+      "textStyling": {
+        "_id": "MPTextStyling:5507294C-AD8D-48EC-B86A-A4E5AE6C34D5",
+        "objectType": "MPTextStyling",
+        "fontFamily": "Charter",
+        "fontSize": 10,
+        "bold": true,
+        "italic": false,
+        "color": "MPColor:black"
+      },
+      "alignment": "left",
+      "bottomSpacing": 5,
+      "firstLineIndent": 0,
+      "lineSpacing": 1.5,
+      "headIndent": 0,
+      "tailIndent": 0,
+      "topSpacing": 8,
+      "priority": 25,
+      "partOfTOC": false,
+      "prototype": "MPParagraphStyle:H6",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPParagraphStyle:E4F01EA5-B58B-4560-90BA-30982E824018"
+    },
+    {
+      "objectType": "MPRequirementsValidation",
+      "results": [],
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPRequirementsValidation:49D79D0F-15A3-498E-9A0A-3B5340F67979"
+    },
+    {
+      "objectType": "MPRequirementsValidation",
+      "results": [],
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPRequirementsValidation:C4BDD0F2-91E0-4F38-8996-F9493AFCE4CD"
+    },
+    {
+      "objectType": "MPRequirementsValidation",
+      "results": [],
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPRequirementsValidation:C7245C75-E970-4F62-B10E-7134FF84D3EA"
+    },
+    {
+      "objectType": "MPRequirementsValidation",
+      "results": [],
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPRequirementsValidation:CF281CE7-A64C-46C5-B622-BD37C3905B07"
+    },
+    {
+      "objectType": "MPRequirementsValidation",
+      "results": [],
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPRequirementsValidation:F5983867-EFB7-4B0B-A0AF-4487C9A30F5D"
+    },
+    {
+      "priority": 1,
+      "title": "Section",
+      "path": [
+        "MPSection:49CD7B11-918F-44A8-8B7A-EFED6D06EF98"
+      ],
+      "elementIDs": [
+        "MPParagraphElement:DF4DBFDC-733C-4FD6-8BD7-8170030EF1E1",
+        "MPParagraphElement:3F584784-AC3B-4B32-9E34-CAE814350F7C",
+        "MPParagraphElement:BE6924F9-F0DE-4E0B-88F2-0A8D906352B9",
+        "MPParagraphElement:3179FBD9-2964-48CF-9125-7720626F40D2",
+        "MPParagraphElement:2D1501A5-7946-43D5-93E2-CE8E627D979F"
+      ],
+      "objectType": "MPSection",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPSection:49CD7B11-918F-44A8-8B7A-EFED6D06EF98"
+    },
+    {
+      "objectType": "MPSnapshot",
+      "s3Id": "1e4652d0-e56a-4e3a-acf4-b012f2714854",
+      "name": "Initial state",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "_id": "MPSnapshot:9ddb2e72-b43a-4d82-ab53-e9300a29b529"
+    },
+    {
+      "objectType": "MPStatusLabel",
+      "name": "To Do",
+      "bundled": true,
+      "priority": 1,
+      "prototype": "MPStatusLabel:todo",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPStatusLabel:3CEB3D0B-AF06-4CE1-8B2E-AB3AF9682465"
+    },
+    {
+      "objectType": "MPStatusLabel",
+      "name": "Completed",
+      "bundled": true,
+      "priority": 3,
+      "prototype": "MPStatusLabel:completed",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPStatusLabel:92D6A76A-A1E4-4CD4-AB4F-3D011ECE561D"
+    },
+    {
+      "objectType": "MPStatusLabel",
+      "name": "Doing",
+      "bundled": true,
+      "priority": 2,
+      "prototype": "MPStatusLabel:doing",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPStatusLabel:FA884327-94AF-498D-A1CD-A7C7D4A53295"
+    },
+    {
+      "name": "default",
+      "title": "Default Table Style",
+      "objectType": "MPTableStyle",
+      "bundled": true,
+      "headerBackgroundColor": "MPColor:verylightgray",
+      "headerTopBorder": {
+        "color": "MPColor:black",
+        "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+        "width": 2,
+        "_id": "MPBorder:6BC92907-B7DF-4542-84CF-1456246EFEA9",
+        "objectType": "MPBorder"
+      },
+      "headerBottomBorder": {
+        "color": "MPColor:black",
+        "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+        "width": 1,
+        "_id": "MPBorder:EB6A90B8-E464-4016-A6E7-90F704EC63C2",
+        "objectType": "MPBorder"
+      },
+      "headerBottomSpacing": 3,
+      "bodyBackgroundColor": "MPColor:white",
+      "bodyBackgroundAlternateColor": "MPColor:white",
+      "bodyColumnSeparatorBorder": {
+        "color": "MPColor:black",
+        "style": "MPBorderStyle:00FD8810-B85D-4FC5-8C23-8022A36E07BD",
+        "width": 1,
+        "_id": "MPBorder:EBB5D0B3-A9FE-49B3-ADAD-2CC5851D91F9",
+        "objectType": "MPBorder"
+      },
+      "footerTopSpacing": 3,
+      "footerBackgroundColor": "MPColor:white",
+      "footerTopBorder": {
+        "color": "MPColor:black",
+        "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+        "width": 1,
+        "_id": "MPBorder:2338AB83-D20B-4118-8C38-D0F330E85F23",
+        "objectType": "MPBorder"
+      },
+      "footerBottomBorder": {
+        "color": "MPColor:black",
+        "style": "MPBorderStyle:EBBB68B9-16A9-4EA2-8817-43755FF1B7A1",
+        "width": 1,
+        "_id": "MPBorder:EC933CA4-ABBB-49D0-A2EF-4B0B2D1DA786",
+        "objectType": "MPBorder"
+      },
+      "priority": 10,
+      "prototype": "MPTableStyle:default",
+      "containerID": "MPProject:EB952E27-7FDB-4A17-9678-F767D4986B8E",
+      "manuscriptID": "MPManuscript:5F919962-8D3D-4C43-9E1C-7AAA858B3D7C",
+      "_id": "MPTableStyle:1ED1F213-8310-4AB9-908B-C040A4A379B6"
+    }
+  ]
+}
