@@ -3,8 +3,15 @@
   "data": [
     {
       "elementType": "div",
-      "contents": "<div xmlns=\"http://www.w3.org/1999/xhtml\" class=\"csl-bib-body\" id=\"MPBibliographyElement:44AEC08F-8D40-4C2E-BF1E-8E3485537003\">  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">1.</div><div class=\"csl-right-inline\">Rodal, A. A. &amp; Littleton, J. T. Synaptic Endocytosis: Illuminating the Role of Clathrin Assembly. <i>Current Biology</i> <b>18</b>, R259–R261 (2008).</div>\n  </div>\n\n  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">2.</div><div class=\"csl-right-inline\">Zhao, L., Wang, D., Wang, Q., Rodal, A. A. &amp; Zhang, Y. Q. Drosophila cyfip Regulates Synaptic Development and Endocytosis by Suppressing Filamentous Actin Assembly. <i>PLoS Genet</i> <b>9</b>, e1003450 (2013).</div>\n  </div>\n\n  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">3.</div><div class=\"csl-right-inline\">Voegtli, W. C., Madrona, A. Y. &amp; Wilson, D. K. The Structure of Aip1p, a WD Repeat Protein That Regulates Cofilin-mediated Actin Depolymerization. <i>J. Biol. Chem.</i> <b>278</b>, 34373–34379 (2003).</div>\n  </div>\n\n  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">4.</div><div class=\"csl-right-inline\">Guicciardi, M. E. &amp; Gores, G. J. AIP1: a new player in TNF signaling. <i>J. Clin. Invest.</i> <b>111</b>, 1813–1815 (2003).</div>\n  </div>\n\n  <div class=\"csl-entry\">\n    <div class=\"csl-left-margin\">5.</div><div class=\"csl-right-inline\">Okada, K., Ravi, H., Smith, E. M. &amp; Goode, B. L. Aip1 and Cofilin Promote Rapid Turnover of Yeast Actin Patches and Cables: A Coordinated Mechanism for Severing and Capping Filaments. <i>MBoC</i> <b>17</b>, 2855–2868 (2006).</div>\n  </div>\n</div>",
+      "contents": "",
       "objectType": "MPBibliographyElement",
+      "containedObjectIDs": [
+        "MPBibliographyItem:1185136E-B352-46CB-A4A1-F6DDE1457A2D",
+        "MPBibliographyItem:152D957F-E002-42F3-AB87-71E4980BDD9F",
+        "MPBibliographyItem:7A40557C-5D34-425B-A1A0-2AF963810467",
+        "MPBibliographyItem:89329BB0-F1C5-453F-A00D-424A31788513",
+        "MPBibliographyItem:DD769750-2BAA-4930-AB69-BB259CE321B3"
+      ],
       "containerID": "MPProject:F6BC14D2-BD56-4237-A24D-30928BFB6381",
       "manuscriptID": "MPManuscript:561C1FB2-3A94-4460-AB75-426F80BC7071",
       "_id": "MPBibliographyElement:44AEC08F-8D40-4C2E-BF1E-8E3485537003"
