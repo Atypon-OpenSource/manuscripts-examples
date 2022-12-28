@@ -6,8 +6,5 @@
   "files": [
     "data"
   ],
-  "repository": "gitlab:mpapp-public/manuscripts-examples",
-  "devDependencies": {
-    "@manuscripts/publish": "^0.2.1"
-  }
+  "repository": "github:Atypon-OpenSource/manuscripts-examples"
 }
